@@ -1,0 +1,47 @@
+/* static/css/styles.css */
+
+/* styles.css */
+
+/* Estilos generales */
+body {
+    background-image: url('https://moewalls.com/wp-content/uploads/2023/09/anonymous-thumb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    margin-left: -40%;
+    background-color: #444444;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    text-align: center;
+    max-width: 500px;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem;
+    color: #ce0235;
+    margin-bottom: 20px;
+}
+
+
+/* Efecto Hover en el contenedor */
+.container:hover {
+    background-image: url('https://e0.pxfuel.com/wallpapers/6/188/desktop-wallpaper-binary-code-code-red.jpg');
+    box-shadow: 0 8px 16px rgb(255, 2, 2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
